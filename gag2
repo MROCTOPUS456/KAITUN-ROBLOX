@@ -121,7 +121,7 @@ getgenv().Config = {
     ["Mail"] = {
         ["Enabled"]=true,
         ["Send To Usernames"]={"daffajr95"},
-        ["Items To Mail"]={ }, -- ["Item Name"]=Amount  -- fruit / seed / pet, e.g. ["Gold Seed"]=50, ["Watermelon"]=10, ["Raccoon"]=1
+        ["Items To Mail"]={["Gold Seed"]=10, ["Robin"]=1, ["Raccoon"]=1, ["Unicorn"]=1, ["Monkey"]=1, ["Bee"]=1, ["Golden Dragonfly"]=1, ["Rainbow Seed"]=10 }, -- ["Item Name"]=Amount  -- fruit / seed / pet, e.g. ["Gold Seed"]=50, ["Watermelon"]=10, ["Raccoon"]=1
         ["Collect Incoming Mail"]=true,
         ["Note"]="",
     },
