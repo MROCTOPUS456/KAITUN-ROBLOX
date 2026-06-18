@@ -104,6 +104,7 @@ getgenv().GAG2Config = {
         ["Poison Apple"] = 1, 
         ["Moon Bloom"] = 1, 
         ["Dragon's Breath"] = 1,
+        ["Super Sprinkler"] = 1,
     },
     COLLECT_MAIL = true,
 
