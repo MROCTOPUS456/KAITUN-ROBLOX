@@ -1,5 +1,4 @@
 getgenv().GAG2Config = {
-    FPS_CAP = 30,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
 
     BUY_PET = {
