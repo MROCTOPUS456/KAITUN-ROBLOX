@@ -4,13 +4,16 @@ getgenv().GAG2Config = {
     COLLECT_FRUIT_DELAY = 20,
 
     BUY_PET = {
+        ["Big Monkey"] = 99, 
+        ["Big Bee"] = 99, 
         ["BlackDragon"] = 99, 
         ["GoldenDragonfly"] = 99, 
-        ["Unicorn"] = 99, 
+        ["Unicorn"] = 99,
+        ["Bear"] = 99, 
         ["Raccoon"] = 99, 
         ["IceSerpent"] = 99,
-        ["Robin"] = 5,
-        ["Deer"] = 5,
+        ["Huge Bunny"] = 5,
+        ["Huge Robin"] = 5,
     },
 
     EQUIP_PET = {
@@ -21,6 +24,7 @@ getgenv().GAG2Config = {
     },
 
     PLANT_SEED = {
+        ["Gold"] = 1000, 
         ["Carrot"] = 10, 
         ["Strawberry"] = 10,
         ["Blueberry"] = 10,
@@ -83,14 +87,13 @@ getgenv().GAG2Config = {
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = false,
     EXPAND_PLOT = 2,
-    BUY_GEAR = {["Common Watering Can"] = 2, ["Common Sprinkler"] = 2,},
+    BUY_GEAR = {["Common Watering Can"] = 2, ["Common Sprinkler"] = 2, ["Super Sprinkler"] = 4, ["Super Watering Can"] = 4,},
     BUY_CRATE = {},
     USE_SPRINKLER = {"Common Sprinkler"},
 
     AUTO_MAIL_USERNAME = {"daffajr95"},
     AUTO_MAIL_ITEM_NAME = {
         ["Rainbow"] = 1, 
-        ["Gold"] = 1, 
         ["Monkey"] = 1, 
         ["Bee"] = 1, 
         ["Black Dragon"] = 1, 
