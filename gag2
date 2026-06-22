@@ -110,6 +110,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = ALL,
         ["Super Sprinkler"] = ALL,
         ["Super Watering Can"] = ALL,
+        ["Venom Spitter"] = ALL,
     },
     COLLECT_MAIL = true,
 
