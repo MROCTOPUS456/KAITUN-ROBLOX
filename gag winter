@@ -2,24 +2,44 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Harvest"] = {
         ["Auto Harvest"]  = true,             -- true / false  (false = never harvest/sell)
         ["Sell At"]       = 95,               -- number
-        ["Sell Every"]    = 40,               -- seconds (0 = off)
+        ["Sell Every"]    = 0,               -- seconds (0 = off)
         ["Only Harvest"]  = {},               -- e.g. { "Watermelon", "Apple" }
         ["Don't Harvest"] = {},               -- e.g. { "Carrot", "Tomato" }
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,               -- true / false  (false = never buy/plant; also stops expand/replace)
-        ["Plant Plan"]  = {},                 -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
+        ["Plant Plan"]  = {
+        ["Gold"] = 1000, 
+        ["Carrot"] = 10, 
+        ["Strawberry"] = 10,
+        ["Blueberry"] = 5,
+        ["Tulip"] = 10,
+        ["Tomato"] = 10,
+        ["Apple"] = 10,
+        ["Bamboo"] = 100,
+        ["Corn"] = 5,
+        ["Cactus"] = 5,
+        ["Pineapple"] = 5,
+        ["Mushroom"] = 100,
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 1000,
+        ["Mango"] = 1000,
+        ["Dragon Fruit"] = 500,
+        ["Acorn"] = 500,
+        ["Cherry"] = 500,
+        ["Sunflower"] = 500,},                 -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
         ["Only Plant"]  = {},                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
         ["Layout"]      = "compact",          -- "compact" / "spread"
         ["Don't Plant"] = {},                 -- e.g. { "Carrot", "Green Bean" }
         ["Don't Buy"]   = {},                 -- e.g. { "Mango", "Coconut" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
             ["Dragon's Breath"] = 5, ["Moon Bloom"] = 5,
-            ["Gold"] = 15, ["Rainbow"] = 5,
+            ["Gold"] = 15, ["Rainbow"] = 5, ["Venus Fly Trap"] = 5,
         },
     },
     ["Money"] = {
-        ["Keep Cash"]          = 15000,    -- always keep at least this much money
+        ["Keep Cash"]          = 0,    -- always keep at least this much money
         ["Auto Expand Plot"]   = true,     -- buy plot expansions automatically
         ["Max Expansions"]     = 3,        -- cap how many expansions to auto-BUY this run. 0 = no limit; default 3 = stop after 3 (raise for a bigger plot)
         ["Expand If Over"]     = 1500000,  -- only spend on an expansion when your cash is above this
@@ -31,7 +51,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},                 -- e.g. { { fruit = "Carrot", mut = "Gold" } }
     },
     ["Pets"] = {
-        ["Buy"]            = { "Unicorn", "GoldenDragonfly", "Deer", "Robin", "Bunny", "Frog", "Owl", "Turtle" },   -- list = tame UNLIMITED; OR caps { Robin = 6, Deer = 6 } = stop once you OWN N of that species; mix ok { "Unicorn", Deer = 6 }
+        ["Buy"]            = { "Unicorn", "GoldenDragonfly", "Deer", "Robin"},   -- list = tame UNLIMITED; OR caps { Robin = 6, Deer = 6 } = stop once you OWN N of that species; mix ok { "Unicorn", Deer = 6 }
         ["Equip"]          = { Deer = 6 },    -- e.g. { Deer = 4, Unicorn = 1 }  (name = how many)
         ["Auto Buy Slots"] = true,            -- true / false
         ["Max Pet Slots"]  = 6,               -- number 3..6
@@ -41,20 +61,18 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Cash"]            = 15000,           -- number
         ["Sprinkler Coverage"]   = "concentrate",   -- "concentrate" / "value" / "spread"
         ["Place Sprinklers"]     = { ["best"] = 4 },          -- e.g. { ["best"] = 4 } or { ["Rare Sprinkler"] = 2 }
-        ["Best Sprinkler Up To"] = "Rare Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
-        ["Keep Gear"]            = { ["Supersize Mushroom"] = 1 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
-        ["Buy Gear"]             = { "Super Sprinkler", "Legendary Sprinkler" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
+        ["Best Sprinkler Up To"] = "Common Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
+        ["Keep Gear"]            = {  	["Super Watering Can"] = 5, ["Super Sprinkler"] = 5, ["Legendary Sprinkler"] = 5 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
+        ["Buy Gear"]             = { "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,       -- automatically grab seed packs that drop during events
     },
     ["Mail"] = {
         ["Auto Claim"] = true,                -- true / false
-        ["Send To"]    = "",                  -- username to funnel items to ("" = off)
+        ["Send To"]    = "daffajr95",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent)
-            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow",
-            "Deer", "GoldenDragonfly", "Unicorn", "Robin", "Raccoon",
-            "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can",
+            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venus Fly Trap", "GoldenDragonfly", "Unicorn", "Raccoon", "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
