@@ -89,7 +89,7 @@ getgenv().GAG2Config = {
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = false,
     EXPAND_PLOT = 3,
-    BUY_GEAR = {["Common Watering Can"] = 2, ["Common Sprinkler"] = 2, ["Super Sprinkler"] = 4, ["Super Watering Can"] = 2,},
+    BUY_GEAR = {["Common Watering Can"] = 2, ["Common Sprinkler"] = 2, ["Super Sprinkler"] = 4, ["Super Watering Can"] = 2, ["Legendary Sprinkler"] = 2,},
     BUY_CRATE = {},
     USE_SPRINKLER = {"Common Sprinkler"},
 
@@ -112,6 +112,7 @@ getgenv().GAG2Config = {
         ["Super Sprinkler"] = 1,
         ["Super Watering Can"] = 1,
         ["Venom Spitter"] = 1,
+        ["Legendary Sprinkler"] = 2,
     },
     COLLECT_MAIL = true,
 
