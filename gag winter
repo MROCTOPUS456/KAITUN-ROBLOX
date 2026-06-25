@@ -29,7 +29,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Cherry"] = 100,
         ["Sunflower"] = 100,},                 -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
         ["Only Plant"]  = {},                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
-        ["Layout"]      = "compact",          -- "compact" / "spread"
+        ["Layout"]      = "spread",          -- "compact" / "spread"
         ["Don't Plant"] = {},                 -- e.g. { "Carrot", "Green Bean" }
         ["Don't Buy"]   = {},                 -- e.g. { "Mango", "Coconut" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
