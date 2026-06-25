@@ -51,9 +51,9 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Pets"] = {
         ["Buy"]            = {},   -- list = tame UNLIMITED; OR caps { Robin = 6, Deer = 6 } = stop once you OWN N of that species; mix ok { "Unicorn", Deer = 6 }
-        ["Equip"]          = { Deer = 6 },    -- e.g. { Deer = 4, Unicorn = 1 }  (name = how many)
+        ["Equip"]          = { Deer = 4 },    -- e.g. { Deer = 4, Unicorn = 1 }  (name = how many)
         ["Auto Buy Slots"] = true,            -- true / false
-        ["Max Pet Slots"]  = 6,               -- number 3..6
+        ["Max Pet Slots"]  = 4,               -- number 3..6
     },
     ["Gear"] = {
         ["Auto Buy"]             = true,            -- true / false
