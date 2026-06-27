@@ -95,6 +95,7 @@ getgenv().GAG2Config = {
 
     AUTO_MAIL_USERNAME = {"daffajr95"},
     AUTO_MAIL_ITEM_NAME = {
+        ["Mega"] = "All",
         ["Rainbow"] = 1, 
         ["Monkey"] = 1, 
         ["Bee"] = 1, 
