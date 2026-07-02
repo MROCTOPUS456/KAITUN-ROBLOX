@@ -71,9 +71,9 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
     BUY_GEAR_MIN_SHECKLE = 1000000, 
     BUY_GEAR = { 
-	["Super Watering Can"] = 9999,
+	["Super Watering Can"] = 5,
     ["Legendary Sprinkler"] = 1,
-    ["Super Sprinkler"] = 9999,
+    ["Super Sprinkler"] = 5,
 	["Common Watering Can"] = 1,
 	["Common Sprinkler"] = 1,
     },  
