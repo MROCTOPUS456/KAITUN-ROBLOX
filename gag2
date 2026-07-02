@@ -100,7 +100,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL = {["daffajr95"] = {
-        ["Carrot"] = 500,
+        ["Carrot"] = 100,
         ["Mega"] = "All",
         ["Rainbow"] = All, 
         ["Monkey"] = "All", 
