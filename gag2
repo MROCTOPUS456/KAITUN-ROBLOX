@@ -65,7 +65,6 @@ getgenv().GAG2Config = {
         ["Pomegranate"] = 100,
         ["Poison Apple"] = 100,
         ["Venom Spitter"] = 100,
-        ["Moon Bloom"] = 100,
         ["Dragon's Breath"] = 100,
     },
     BUY_AUCTION = {},  -- ["Item Name"] = { Max Sheckle Price, Buy Until Amount }
