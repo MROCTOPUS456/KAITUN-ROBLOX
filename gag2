@@ -16,7 +16,6 @@ getgenv().GAG2Config = {
     -- Planting Config
     PLANT_SEED = {  -- ["Seed Name"] = Plant Until Amount
         ["Gold"] = 100, 
-        ["Carrot"] = 10, 
         ["Strawberry"] = 10,
         ["Blueberry"] = 10,
         ["Tulip"] = 10,
@@ -100,7 +99,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL = {["daffajr95"] = {
-        ["Carrot"] = "All",
+        ["Carrot"] = 500,
         ["Mega"] = "All",
         ["Rainbow"] = All, 
         ["Monkey"] = "All", 
