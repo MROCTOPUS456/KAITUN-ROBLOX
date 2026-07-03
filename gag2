@@ -1,5 +1,5 @@
 getgenv().GAG2Config = {
-    FPS_CAP = 7,  -- MUST USE 5+ FPS FOR TWEENING
+    FPS_CAP = 10,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
     COLLECT_FRUIT_DELAY = 20,
 
@@ -16,39 +16,42 @@ getgenv().GAG2Config = {
     -- Planting Config
     PLANT_SEED = {  -- ["Seed Name"] = Plant Until Amount
         ["Gold"] = 100, 
+        ["Carrot"] = 0, 
         ["Strawberry"] = 10,
         ["Blueberry"] = 10,
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 50,
+        ["Bamboo"] = 100,
         ["Corn"] = 10,
         ["Cactus"] = 10,
         ["Pineapple"] = 10,
-        ["Mushroom"] = 50,
-        ["Banana"] = 50,
-        ["Grape"] = 50,
-        ["Coconut"] = 50,
-        ["Mango"] = 50,
-        ["Dragon Fruit"] = 50,
-        ["Acorn"] = 50,
-        ["Cherry"] = 50,
-        ["Sunflower"] = 50,
-        ["Venus Fly Trap"] = 50,
-        ["Pomegranate"] = 50,
-        ["Poison Apple"] = 50,
-        ["Venom Spitter"] = 50,
+        ["Mushroom"] = 200,
+        ["Banana"] = 30,
+        ["Grape"] = 30,
+        ["Coconut"] = 30,
+        ["Mango"] = 30,
+        ["Dragon Fruit"] = 30,
+        ["Acorn"] = 30,
+        ["Cherry"] = 30,
+        ["Sunflower"] = 30,
+        ["Venus Fly Trap"] = 30,
+        ["Pomegranate"] = 30,
+        ["Poison Apple"] = 30,
+        ["Venom Spitter"] = 30,
+        ["Moon Bloom"] = 30,
+		["Hypno Bloom"] = 30,
     },
 
     -- Buying Config
     BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
-        ["Carrot"] = 5, 
+        ["Carrot"] = 999, 
         ["Strawberry"] = 1,
         ["Blueberry"] = 1,
         ["Tulip"] = 1,
         ["Tomato"] = 1,
         ["Apple"] = 1,
-        ["Bamboo"] = 5,
+        ["Bamboo"] = 9999,
         ["Corn"] = 1,
         ["Cactus"] = 1,
         ["Pineapple"] = 1,
@@ -71,11 +74,8 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
     BUY_GEAR_MIN_SHECKLE = 1000000, 
     BUY_GEAR = { 
-	["Super Watering Can"] = 5,
-    ["Legendary Sprinkler"] = 1,
-    ["Super Sprinkler"] = 5,
-	["Common Watering Can"] = 1,
-	["Common Sprinkler"] = 1,
+	["Super Watering Can"] = 9999,
+    ["Super Sprinkler"] = 9999,
     },  
     
     -- Sell Config
@@ -84,10 +84,8 @@ getgenv().GAG2Config = {
     SELL_ALL_DELAY = 20,  -- Seconds  
 
     -- Consumable Config
-    USE_SPRINKLER = {
-	["Common Sprinkler"] = 1,
-    ["Legendary Sprinkler"] = 1,},  -- "Sprinkler Name" (1 active sprinkler at a time)
-    USE_WATERING_CAN = {["Common Watering Can"] = 1,},  -- "Watering Can Name" 
+    USE_SPRINKLER = {},  -- "Sprinkler Name" (1 active sprinkler at a time)
+    USE_WATERING_CAN = {] = 1,},  -- "Watering Can Name" 
     USE_WATERING_CAN_DELAY = 60,  -- Seconds
 
     -- Misc Config
@@ -98,7 +96,7 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 3,  -- 0 = No expand, 3 = expand plot 3 times
 
     -- Auto Mail
-    AUTO_MAIL = {["daffajr95"] = {
+    AUTO_MAIL = { ["daffajr95"] = {
         ["Carrot"] = "ALL",
         ["Mega"] = "All",
         ["Rainbow"] = All, 
